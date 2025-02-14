@@ -4,11 +4,14 @@ url = "https://api.siliconflow.cn/v1/images/generations"
 
 payload = {
     "model": "deepseek-ai/Janus-Pro-7B",
-    "prompt": "芯潮流(珠海)科技有限公司, 中国新年, poster",
+    "prompt": "beautiful girl with Bikini, poster",
     "seed": 4999999999
 }
 headers = {
-    "Authorization": "Bearer sk-nfddkgvcxubmntusvbqsosujlzcnjkcjmphzgfctpgkeymnq",
+    # With my token
+    #"Authorization": "Bearer sk-nfddkgvcxubmntusvbqsosujlzcnjkcjmphzgfctpgkeymnq",
+    # With fwj token
+    "Authorization": "Bearer sk-xafmegjniqzbzgtttfgqbhqksqhiekweylozorjyknfznqiu",
     "Content-Type": "application/json"
 }
 
